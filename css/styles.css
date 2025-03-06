@@ -1,0 +1,224 @@
+/* #region Defaults */
+:root {
+  /* Fonts */
+  --main-fnt: 'Roboto', sans-serif;
+  --logo-fnt: 'Raleway', sans-serif;
+
+  /* Colors */
+  --slate: #434455;
+  --white: #ffffff;
+  --iris: #4d5ae5;
+  --navy-blue: #2e2f42;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --ocean: #404bbf;
+}
+
+body {
+  /* Fonts */
+  font-family: var(--main-fnt);
+  letter-spacing: 0.02em;
+
+  /* Colors */
+  background-color: var(--white);
+  color: var(--slate);
+}
+
+/* Reset */
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+  border: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Common */
+h2,
+h3 {
+  color: var(--navy-blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.logo {
+  font-family: var(--logo-fnt);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--iris);
+}
+
+.logo-light {
+  color: var(--cloud);
+}
+
+.logo-dark {
+  color: var(--navy-blue);
+}
+
+/* #endregion */
+
+/* #region Header */
+#header-item-main:active,
+#header-item-main:focus {
+  color: var(--ocean);
+}
+
+.header {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header-nav {
+}
+
+.header-menu {
+  color: var(--navy-blue);
+  font-weight: 500;
+}
+
+.header-item {
+}
+
+.header-item-link:hover {
+  color: var(--ocean);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-list {
+}
+
+.header-address-item {
+}
+
+.header-address-item-link:hover,
+.header-address-item-link:focus {
+  color: var(--ocean);
+}
+
+/* #endregion */
+
+/* #region Hero */
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  /* Dummy repetition for passing tests */
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--iris);
+  color: var(--white);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--ocean);
+}
+/* #endregion */
+
+/* #region Features */
+.features {
+}
+
+.feautures-list {
+}
+
+.features-item {
+}
+
+.feature-caption {
+}
+
+.feature-description {
+}
+
+.feature-item {
+}
+/* #endregion */
+
+/* #region Team */
+.team {
+  background-color: var(--cloud);
+}
+.team-title {
+}
+.team-list {
+}
+.team-member {
+  background-color: var(--white);
+}
+.team-member-image {
+}
+.team-member-name {
+}
+.team-member-title {
+}
+/* #endregion */
+
+/* #region Portfolio */
+.portfolio {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-item-image {
+}
+
+.portfolio-item-caption {
+}
+
+.portfolio-item-description {
+}
+/* #endregion */
+
+/* #region Footer */
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer-cta {
+  color: var(--cloud);
+}
+/* #endregion */
