@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0](https://gitlab.com/goit-uni/html-css-fls/goit-markup-hw-03/compare/1.0.0...1.1.0) (2025-03-10)
+
+### Features
+
+* add header work ([9057e87](https://gitlab.com/goit-uni/html-css-fls/goit-markup-hw-03/commit/9057e87521dde7cec5b05ef69f64031924e987c7))
+
 ## 1.0.0 (2025-03-06)
 
 ### Features
