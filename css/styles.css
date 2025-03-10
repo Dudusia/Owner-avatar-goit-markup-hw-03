@@ -106,6 +106,10 @@ p {
 
 }
 
+.header .logo {
+  margin-right: 76px;
+}
+
 .logo {
   font-family: var(--logo-fnt);
   text-transform: uppercase;
@@ -114,7 +118,6 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--iris);
-  margin-right: 76px;
 }
 
 .logo-light {
@@ -198,6 +201,7 @@ p {
 /* #region Hero */
 .hero {
   background-color: var(--navy-blue);
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -208,8 +212,8 @@ p {
   line-height: 1.07;
   /* Dummy repetition for passing tests */
   letter-spacing: 0.02em;
-  width: 496px;
-  padding: 0 472px;
+  max-width: 496px;
+  /* padding: 0 472px; */
 }
 
 .btn {
@@ -218,6 +222,10 @@ p {
   letter-spacing: 0.04em;
   background-color: var(--iris);
   color: var(--white);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .btn:hover,
@@ -297,6 +305,6 @@ p {
 
 .footer .logo {
   display: inline-block;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 /* #endregion */
