@@ -15,7 +15,7 @@
 
   /* Defaults */
   --items-count: '__REPLACE_ME__';
-  --item-width:  '__REPLACE_ME__';
+  --item-width: '__REPLACE_ME__';
 }
 
 body {
@@ -107,7 +107,6 @@ h2 {
 
 p {
   line-height: 1.5;
-
 }
 
 .header .logo {
@@ -148,7 +147,7 @@ p {
 .header {
   font-size: 16px;
   line-height: 1.5;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -248,7 +247,7 @@ p {
   --items-width: 24;
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - (var(--items-count) - 1) * var(--item-width)px / var(--items-count)))
+  flex-basis: width calc((100% - 3 * 24px) / 4);
 }
 
 .features-item {
@@ -268,19 +267,32 @@ p {
 /* #region Team */
 .team {
   background-color: var(--cloud);
+  padding: 120px 0;
 }
 .team-title {
+  margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team-member {
   background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-member-image {
 }
 .team-member-name {
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-member-title {
+  text-align: center;
+}
+
+.team-member-container {
+  padding: 32px 0;
 }
 /* #endregion */
 
