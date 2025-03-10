@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0](https://gitlab.com/goit-uni/html-css-fls/goit-markup-hw-03/compare/1.1.0...1.2.0) (2025-03-10)
+
+### Features
+
+* review comm and footer work ([11e84f5](https://gitlab.com/goit-uni/html-css-fls/goit-markup-hw-03/commit/11e84f57c8a3e359124b119ea348a38db04f8482))
+
 ## [1.1.0](https://gitlab.com/goit-uni/html-css-fls/goit-markup-hw-03/compare/1.0.0...1.1.0) (2025-03-10)
 
 ### Features
