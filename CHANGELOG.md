@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.0](https://gitlab.com/goit-uni/html-css-fls/goit-markup-hw-03/compare/1.3.0...1.4.0) (2025-03-10)
+
+### Features
+
+* 2nd section ([9a8faea](https://gitlab.com/goit-uni/html-css-fls/goit-markup-hw-03/commit/9a8faea800f5dacb2ee7268d160b553d73f545e0))
+
 ## [1.3.0](https://gitlab.com/goit-uni/html-css-fls/goit-markup-hw-03/compare/1.2.0...1.3.0) (2025-03-10)
 
 ### Features
