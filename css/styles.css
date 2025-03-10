@@ -12,6 +12,10 @@
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
   --ocean: #404bbf;
+
+  /* Defaults */
+  --items-count: '__REPLACE_ME__';
+  --item-width:  '__REPLACE_ME__';
 }
 
 body {
@@ -80,8 +84,8 @@ address {
   border: 0;
   padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
   overflow: hidden;
 }
 
@@ -236,15 +240,22 @@ p {
 
 /* #region Features */
 .features {
+  padding: 120px 0;
 }
 
-.feautures-list {
+.features-list {
+  --items-count: 4;
+  --items-width: 24;
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - (var(--items-count) - 1) * var(--item-width)px / var(--items-count)))
 }
 
 .features-item {
 }
 
 .feature-caption {
+  margin-bottom: 8px;
 }
 
 .feature-description {
